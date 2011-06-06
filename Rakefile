@@ -33,7 +33,7 @@ begin
     gemspec.authors = ['Gregory Brown', 'Mike Milner', 'Andrew France']
     gemspec.rdoc_options = ['--title', 'Ruport Documentation', '--main', 'README.rdoc', '-q']
     gemspec.add_dependency 'fastercsv'
-    gemspec.add_dependency 'pdf-writer', '= 1.1.8'
+    gemspec.add_dependency 'metaskills-pdf-writer', '= 1.2.3'
   end
 rescue LoadError
   puts "Jeweler gem not available."
